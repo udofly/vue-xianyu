@@ -4,12 +4,13 @@
 
 <template>
   <div class="home-content">首页内容,正常展示则正确</div>
+
+  <a href="/about">跳转about</a>
 </template>
 
 <style>
 .home-content {
   width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
